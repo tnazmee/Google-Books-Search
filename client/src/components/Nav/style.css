@@ -6,6 +6,17 @@
     width: 100%;
 }
 
+.navbarHeader {
+    /*font-family: 'Roboto Condensed', Sans-Serif;*/
+    font-family: 'Oleo Script', cursive;
+}
+
 .navbarNav {
     margin-left: 60%;
+}
+
+.navBtn {
+    background: unset;
+    border: 2px solid white;
+    border-radius: 5px;
 }

@@ -1,5 +1,8 @@
 .jumbotron{
     background: unset;
+    font-family: 'Roboto Condensed', Sans-Serif;
+    font-size: 65px;
+    padding-bottom: 1%;
 }
 
 .text-center {

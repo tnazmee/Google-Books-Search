@@ -1,10 +1,13 @@
 form{
-    background: lightblue;
+    background: unset;
     border-radius: 15px;
+    border: 2px solid white;
 }
 .BookSearchLabel{
     margin-left:20px;
-    margin-top: 10px
+    margin-top: 10px;
+    color: white;
+    font-family: 'Oleo Script', cursive;
 }
 .submitBtn{
     margin-bottom: 10px;
@@ -12,5 +15,5 @@ form{
 }
 .form-control{
     margin-left: 20px;
-    width: 95%
+    width: 95%;
 }

@@ -7,7 +7,7 @@ const SearchResult = props => {
         <div className="card">
             <div className="card-body player">
                 <div className="article">
-                    <h3>Search Results</h3>
+                    <h2 className="articleHeader">Search Results</h2>
                 </div>
             </div>
         </div>
@@ -15,7 +15,7 @@ const SearchResult = props => {
             <div className="card">
                 <div className="card-body player">
                     <div className="article">
-                        <h3>Search Results</h3>
+                        <h2 className="articleHeader">Search Results</h2>
                         {props.books.map(book => {
                             return (
                                 <li className="search-list list-group-item">

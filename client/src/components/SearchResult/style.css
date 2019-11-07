@@ -1,20 +1,33 @@
-.card{
+.card {
     border-radius: 10px;
-    background-color: lightgrey;
-    margin-top: 5%;
+    background-color: unset;
+    margin-top: 3%;
+    border: 2px solid white;
+    margin-bottom: 10%;
+    padding-bottom: 2%;
 }
 
-.search-list{
+.articleHeader {
+    color: white;
+    font-family: 'Oleo Script', cursive;
+}
+
+.search-list {
     border-radius: 15px;
-    background-color: lightblue
+    background: rgb(173, 216, 230, .7);
+    margin-bottom: 5%;
+}
+
+.bookTitle {
+    font-weight: bolder;
 }
 
 .saveBook {
     border-radius: 5px;
-    margin-left: 10px
+    margin-left: 10px;
 }
 
 .viewBook {
     border-radius: 5px;
-    margin-left: 5px
+    margin-left: 5px;
 }
