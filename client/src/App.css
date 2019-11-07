@@ -1,0 +1,24 @@
+body{
+    position: relative;
+    background-image: url('https://buddhify.com/wp-content/uploads/2018/07/iStock-689785084.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+}
+
+body:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.68);
+}
+
+.textLayout {
+    position: relative;
+}

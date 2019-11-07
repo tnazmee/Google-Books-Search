@@ -1,0 +1,11 @@
+.navbar {
+    background: black;
+    border-bottom: 3px white solid;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+
+.navbarNav {
+    margin-left: 60%;
+}
